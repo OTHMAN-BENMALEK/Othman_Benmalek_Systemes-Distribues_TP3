@@ -97,6 +97,7 @@ La Création d'une application Web JEE basée sur Spring MVC, Thylemeaf et Sprin
 
 
 ## Partie 3 :Sécurité avec Spring security 
+   # InMemory Authentication :
 
    -Après ajout de spring starter security (on recoit un mdp dans la console):
 ![1)Après ajout direct de spring starter security (on recoit un mdp dans la console)](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/74c45f90-e563-46d6-a9bb-c938c8870074)
@@ -138,3 +139,35 @@ La Création d'une application Web JEE basée sur Spring MVC, Thylemeaf et Sprin
 
 ![6-1)Nouvelle login page ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/3cf488b8-ecac-43df-a455-a3d583ae0ec9)
 
+   #JDBC Authentication:
+   -Copier les commandes de création de nouvelles tables à partir de ce fichier dans les dépandances :
+   
+![1-1)Copier les commandes de création de nouvelles tables à partir de ce fichier dans les dépandances](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/26eb076e-69dd-4663-a0bf-089322eff59e)
+
+   -Résultat :
+![1-2)Résultat dans DB](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/a90cba2f-347d-4baf-ae23-028e789acf73)
+
+
+ -Utiliser JDBC userdetails manager pour gérer les users et admin 
+ 
+![2)Utiliser JDBC userdetails manager pour gérer les users et admin](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/9506e7ba-1180-4df3-8b55-ced54285d72b)
+
+ -Table de users  :
+
+ ![2-1)Résultat ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/a856975e-5b4e-4150-b102-6140b0f668f7)
+
+-Table de authorities :
+
+![2-2)Résultat dans la table authorities](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/1ee0e3c9-abd2-4dc3-a827-6ead42158e17)
+
+-Tests d'authentifications :
+
+![3-1)TEST](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/54c899b6-5a82-44a7-8a51-bb9e9a96d95c)
+
+![3-2)TEST ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/1908a5ac-1b29-4cca-83be-e082049efa73)
+
+![3-3)TEST 2](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/715d39b3-467e-4b88-8fcc-0e60d779737b)
+
+![3-4)TEST 2](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/fede04d3-6481-4906-a272-fe7d25cf9fb9)
+
+ 
