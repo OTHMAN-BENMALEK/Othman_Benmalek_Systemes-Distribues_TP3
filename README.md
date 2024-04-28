@@ -140,6 +140,8 @@ La Création d'une application Web JEE basée sur Spring MVC, Thylemeaf et Sprin
 ![6-1)Nouvelle login page ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/3cf488b8-ecac-43df-a455-a3d583ae0ec9)
 
    #JDBC Authentication:
+
+   
    -Copier les commandes de création de nouvelles tables à partir de ce fichier dans les dépandances :
    
 ![1-1)Copier les commandes de création de nouvelles tables à partir de ce fichier dans les dépandances](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/26eb076e-69dd-4663-a0bf-089322eff59e)
