@@ -172,4 +172,47 @@ La Création d'une application Web JEE basée sur Spring MVC, Thylemeaf et Sprin
 
 ![3-4)TEST 2](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/fede04d3-6481-4906-a272-fe7d25cf9fb9)
 
- 
+# UserDetails Service :
+
+-Creation d'une nouvelle classe AppUser :
+
+![1-1)AppUser](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/c6e70862-6ed3-4b14-910a-25e0612e1d54)
+
+
+-Creation d'une nouvelle classe AppRole :
+
+![1)AppRole ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/ea1e5225-eb35-4da3-a82e-fd4fa68f9257)
+
+
+-Modification de HopitalApp :
+
+![1-0)APP](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/af6b092c-c0c7-40ff-8e5a-fb4a986b71f4)
+
+
+-Nouveaux Tables dans DB:
+
+![1-2)3 new tables in DB](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/32010dbd-1bcf-439a-9452-ac048f304fc4)
+
+-Table appUser :
+
+![1-3)Resultat 2 table appUser](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/ae816efb-2d7c-41dc-89bc-59255f45dbe8)
+
+
+-Table appRole:
+
+![1-3)Resultat table appRole](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/00ffe280-b683-45f3-b99b-41f387fa975d)
+
+
+-Table appUserRoles :
+
+![1-3)Resultat 1  table appUserRoles](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/c4764dbe-9179-4834-9443-570a35adc8b7)
+
+-UserDetailsImpl :
+
+![3)UserDetailsImpl](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/546d0ab2-c9af-465f-94ab-f9ee29ba28a7)
+
+
+-Test :
+
+![2)test d'un utilisateur ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP3/assets/159661363/0c97a569-94d4-4f5f-b399-ac25d48a7df8)
+
